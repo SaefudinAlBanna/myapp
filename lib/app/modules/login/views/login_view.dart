@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+// import 'package:myapp/app/modules/home/views/home_view.dart';
 import 'dart:ui' as ui;
-import '../../home/views/home_view.dart';
+
+import 'package:myapp/app/modules/homepage/views/homepage_view.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -77,7 +79,7 @@ class LoginPage extends StatelessWidget {
                         ),
                         onPressed: () async{
                           await Navigator.push(context, 
-                          MaterialPageRoute(builder: (context) => HomeView(),));
+                          MaterialPageRoute(builder: (context) => HomepageView(),));
                         },
                         child: const Text("Login"),
                       ),
