@@ -7,7 +7,6 @@ class PageIndexController extends GetxController {
   RxInt pageIndex = 0.obs;
 
   void changePage(int i) async {
-    print('click index=$i');
 
     switch (i) {
       case 1:

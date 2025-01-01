@@ -10,6 +10,7 @@ void main() {
   final pageC = Get.put(HomepageController(), permanent: true);
   runApp(
     GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Application",
       initialRoute: AppPages.login,
       getPages: AppPages.routes,

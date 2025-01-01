@@ -5,7 +5,6 @@ import 'package:get/get.dart';
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 
 import '../controllers/homepage_controller.dart';
-import '../../../controllers/page_index_controller.dart';
 
 class HomepageView extends GetView<HomepageController> {
   HomepageView({super.key});
